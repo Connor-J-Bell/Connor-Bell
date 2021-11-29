@@ -1,0 +1,11 @@
+#Test if_stmt() errors, should throw 1 error for missing 'then'
+prog TestIf
+	start
+		load (var1, var2);
+		var1 := 5;
+		var2 := 10;
+		if (var1 < var2);
+		if (var1 > var2) then var1 := 1
+		else var2 := 1;
+		save (var1, var2)		
+	finish

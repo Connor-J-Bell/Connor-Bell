@@ -1,0 +1,6 @@
+#Testing for missing program name, sees 'start' as the name, and 'load' as the starting token, sees that 'finish' is missing and throws errors for code after where 'finish' should be. Has 6 errors
+prog 
+	start
+		load(var);
+		save(var)
+errors after finish missing

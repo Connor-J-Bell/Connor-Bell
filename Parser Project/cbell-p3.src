@@ -1,0 +1,11 @@
+#Testing <if stmt> along with <term>, both line 5
+prog TestIf
+	start
+		load (var1);
+		if var1 > 2 
+			then var1 := 5;
+		if var1 < 10 
+			then var1 := 5
+			else var1 := -10;
+		save (var1)
+	finish

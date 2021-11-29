@@ -1,0 +1,9 @@
+#Test error messages from factor() and finding an illegal character
+prog TestFactor
+	start
+		var2 := 3;
+		var1 := (var2 * 2 + 1 ;
+		if (var1 < var2) then var1 := 20;
+		var2 := &1;
+		save (var1, var2)
+	finish

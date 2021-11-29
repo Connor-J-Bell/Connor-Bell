@@ -1,0 +1,8 @@
+# Positive test case 3: nested compound statements
+prog Aba start
+	load (a, a1, B, B1); save (-15 + 20, 3 - 49); Pi := (pai) ;
+	if 1 then start f := t + 23; e := f - 5 finish 
+	else start 
+			f := 0 ; e := -1 
+	finish
+finish

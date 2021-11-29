@@ -1,0 +1,7 @@
+#First test file, should compile correctly
+prog FirstTest
+start
+	load (var1, var2);
+	var1 := (10 - 5);
+	var2 := 7
+finish

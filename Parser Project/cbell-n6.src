@@ -1,0 +1,8 @@
+#Throws an error when expecting a legal statement. Syntax designates that '5 + 5' and 'var := 5' are part of the same statement. Throws 1 error on line 5.
+prog Teststmt
+	start
+		load(var);
+		5 + 5
+		var := 5;
+		save(var)
+	finish

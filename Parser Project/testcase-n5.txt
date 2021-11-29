@@ -1,0 +1,6 @@
+# Negative test case 5: Missing finish
+prog Abc123def start
+if ( a <= b ) then a := -2 + 43 else b:= 56 * a  
+
+# finish
+# nothing to see here

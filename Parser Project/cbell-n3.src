@@ -1,0 +1,9 @@
+#Test to throw errors before finding 'prog', also missing 'finish', should throw 3 errors
+error
+error
+prog TestProgErrors
+	start
+		load(var);
+		save(var)
+	
+error

@@ -1,0 +1,8 @@
+#Further testing errors from program_grammar(), missing 'prog' entirely, should throw an error for every lexeme that isnt 'prog'
+ProgNameTest
+	start
+		load(var1, var2);
+		while var1 < 55
+		do var1 := var2 + 2;
+		save(var1, var2)
+	finish

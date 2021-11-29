@@ -1,0 +1,9 @@
+#Testing nested program and multiplying operator in factor()
+
+prog NestedProgram
+	start
+		var := 5 * 4;
+		while var < 100
+		do var := var * -2;
+		save(var)
+	finish

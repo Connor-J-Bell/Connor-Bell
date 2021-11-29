@@ -1,0 +1,8 @@
+#Testing the while loop
+prog WhileTest
+start
+	var := 1;
+	test := 5;
+	while var < test
+	do var := var + 1
+finish

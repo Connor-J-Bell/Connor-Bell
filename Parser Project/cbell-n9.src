@@ -1,0 +1,10 @@
+#Test for error cases in save_stmt(), should print 5 errors
+prog TestSave
+	start
+		load(var1,var2);
+		save(var1, var2);
+		save var1);
+		save (var1, ;
+		save ();
+		save (var2)
+	finish

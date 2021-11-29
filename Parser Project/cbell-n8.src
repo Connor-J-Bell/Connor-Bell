@@ -1,0 +1,11 @@
+#Testing for load_stmt() errors, should print 6 errors
+prog TestLoad
+	start
+		load(var1, var2);
+		load();
+		load(;
+		load );
+		load var1, var2);
+		load (var1 ;
+		save (var1, var2)
+	finish

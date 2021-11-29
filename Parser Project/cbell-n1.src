@@ -1,0 +1,6 @@
+#Parse the whole file while going through error (missing 'start'), file has 1 error
+prog FirstErrorTest
+	load (var1, var2);
+	var1 := (10 - 5);
+	var2 := 7
+finish
