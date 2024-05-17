@@ -1,4 +1,4 @@
-# Hi there! I'm Connor Bell👋
+# Hello there! I'm Connor Bell👋
 
 ## About Me
 I'm a passionate computer science graduate with a minor in physics, focused on leveraging my skills to create innovative solutions and drive improvements in healthcare systems. Growing up in Western Massachusetts, I developed a strong interest in technology and problem-solving, which eventually led me to pursue a career in computer science.
